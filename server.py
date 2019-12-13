@@ -31,6 +31,7 @@ resp = """HTTP/1.1 200 OK
 Server: SelfMadeServer v0.0.1
 """
 resp+="Сегодняшняя дата: "+ str(datetime.date.today()) + "\n"
+resp+=
 resp+="\n"
 
 if name != "":
